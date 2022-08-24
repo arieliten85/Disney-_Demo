@@ -1,0 +1,22 @@
+.container_item_category {
+  height: 90%;
+}
+
+.containerCards {
+  margin-top: 150px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2em;
+  width: 90% !important;
+}
+
+.card_img_category {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+
+  box-shadow: -1px 3px 17px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: -1px 3px 17px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: -1px 3px 17px 0px rgba(255, 255, 255, 0.75);
+}

@@ -1,0 +1,277 @@
+.nav_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  align-items: center;
+  position: fixed;
+  height: 70px;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 1;
+  width: 100%;
+
+  transform: translateZ(0);
+  transition: opacity 0.5s ease-out;
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1pxsolid #fff;
+    position: absolute;
+    top: 0;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    padding: 10px;
+  }
+
+  .nav-menu.active {
+    background: #0c0c0cd1;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 0;
+    height: 300px;
+    padding: 10px;
+  }
+
+  .icon {
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #ffdd40;
+  }
+
+  .nav-item .active {
+    color: #ffdd40;
+    border: none;
+  }
+  .nav-links {
+    display: table;
+  }
+
+  //background: #05144423;
+
+  .button_login {
+    border: white solid 1px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    letter-spacing: 1.5px;
+    font-family: Avenir, sans-serif;
+  }
+  .button_login:hover {
+    color: black;
+    background: white;
+    align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+  }
+
+  .button_logOut {
+    border: white solid 1px;
+    background: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+    font-family: Avenir, sans-serif;
+  }
+
+  .button_logOut:hover {
+    color: black;
+    background: white;
+    align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+  }
+
+  .container_enlaces_nav {
+    // border: red solid;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .item_Link {
+      // border: red solid;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 120px;
+    }
+  }
+
+  .container_logout {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.container_logo {
+  //border: red solid;
+  width: 120px;
+  //margin: 0 auto;
+}
+
+.logoNavStatic {
+  display: block;
+  background-color: transparent;
+  background-image: url(https://static-assets.bamgrid.com/product/disneyplus/images/logo.1a56f51c764022ee769c91d894d44326.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 100px;
+}
+
+.logoNav {
+  background-color: transparent;
+  background-image: url(https://static-assets.bamgrid.com/product/disneyplus/images/logo.1a56f51c764022ee769c91d894d44326.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 100px;
+  display: none;
+}
+
+.showLogo {
+  display: block;
+  // animation-name: show;
+  // animation-duration: 2s;
+  // animation-iteration-count: inherit;
+}
+
+// @keyframes show {
+//   0% {
+//     transform: translatex(-10em);
+//   }
+//   40% {
+//     transform: translatex(1em);
+//   }
+// }
+
+.fixed {
+  background: #051444a8;
+}
+
+.container_button_sucri_log {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.button_suscribite {
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background: #016cf9;
+
+  letter-spacing: 1.5px;
+  font-family: Avenir, sans-serif;
+
+  display: none;
+}
+.button_suscribite:hover {
+  background: #1076fc;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+}
+
+.showSuscribite {
+  display: block;
+}
+
+@media screen and (min-width: 1280px) {
+  .showSuscribite {
+    display: block;
+    animation-name: showSuscribite;
+    animation-duration: 1s;
+    animation-iteration-count: inherit;
+  }
+
+  @keyframes showSuscribite {
+    0% {
+      transform: translatey(-10em);
+    }
+  }
+
+  .showLogo {
+    display: block;
+    animation-name: show;
+    animation-duration: 2s;
+    animation-iteration-count: inherit;
+  }
+
+  @keyframes show {
+    0% {
+      transform: translatex(-10em);
+    }
+    40% {
+      transform: translatex(1em);
+    }
+  }
+
+  .icon {
+    display: none !important;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 98% !important;
+
+    border-top: 1pxsolid #fff;
+    position: fixed;
+    top: 0;
+    left: 0 !important;
+    opacity: 1;
+    transition: all 0.5s ease;
+    padding: 10px;
+
+    .container_enlaces_nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .nav_menu .container_logout {
+    text-align: center;
+    margin-top: 0;
+  }
+}

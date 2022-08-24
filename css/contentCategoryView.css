@@ -1,0 +1,17 @@
+.card_select {
+  border: rgb(0, 47, 255) solid;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.card_select .item_card {
+  width: 220px;
+  border: red solid;
+}
+.card_select .item_card img {
+  width: 100%;
+}
+.card_select .container_info {
+  border: red solid;
+  width: 50%;
+}/*# sourceMappingURL=contentCategoryView.css.map */

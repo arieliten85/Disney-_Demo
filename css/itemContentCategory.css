@@ -1,0 +1,45 @@
+.containerCenter {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(255, 230, 0) solid;
+}
+
+.card_category {
+  width: 370px;
+  height: 240px;
+}
+
+.container_enlaces {
+  border: red solid;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.container_enlaces ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.container_enlaces ul li {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.containerCategory {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  margin: 0 auto;
+  gap: 2em;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  width: 88% !important;
+}
+
+.cardCategory {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=itemContentCategory.css.map */

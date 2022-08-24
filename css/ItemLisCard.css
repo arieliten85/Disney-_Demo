@@ -1,0 +1,25 @@
+.containerCenter {
+  border: red solid;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerCategory {
+  border: red solid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin: 0 auto;
+  gap: 1em;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  width: 80% !important;
+}
+
+.cardCategory {
+  border: red solid;
+  width: 240px;
+  height: 220px;
+}/*# sourceMappingURL=ItemLisCard.css.map */

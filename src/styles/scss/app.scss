@@ -1,0 +1,28 @@
+@import "../../components/navbar/navbar.scss";
+@import "../../components/contentCategory/ItemContentCategory/itemContentCategory.scss";
+@import "../../components/header/Header.scss";
+@import "../../components/contentCategory/ItemCard/ItemCard.scss";
+@import "../../components/ContentDetail/ContentDetail.scss";
+@import "../../components/login/login.scss";
+@import "../../components//register/register.scss";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen,
+    Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+  color: white;
+}
+
+body {
+  position: relative;
+  background: #051444;
+
+  overflow-x: hidden;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
