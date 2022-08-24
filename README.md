@@ -1,16 +1,22 @@
 # Ariel Eduardo Ferencak
 
-La verdad que fué muy divertido y desafiante realizar esta app en dos dias.Es pero que le guste y que cumpla con sus espectativa. Muchas gracias :)
+La verdad que fué muy divertido y desafiante realizar esta app en dos días. Es pero que les guste y que cumpla con sus espectativa. Muchas gracias :)
 
 # INTRUCCIONES PARA LEVANTAR LA APP
 
-# Para levantar el servidor "BACK" ejecute en la terminal el siguiente comando:
+# Pasos para levantar el servidor "BACK".
+# 1.Instale primero los modulos 
+`Parado la esta ruta /Escritorio/Disney+/my-app/api$`
+# ejecute el sigiente comando: npm i
+# Y luego el siguiente:`npm run server`
 
-# Parado en esta ruta /Escritorio/Disney+/my-app/api$ tipee, `npm run server`
 
-# Para levantar el servidor "FRONT" ejecute en la terminal el siguiente comando:
+# Pasos para levantar el cliente "FRONT".
+# 1.Instale primero los modulos 
+`Parado la esta ruta/ Escritorio/Disney+/my-app$ `
+# ejecute el sigiente comando: npm i
+# Y luego el siguiente: `npm start`
 
-### Parado en esta ruta /Escritorio/Disney+/my-app$ tipee, `npm start`
 
 #### Screenshot
 
